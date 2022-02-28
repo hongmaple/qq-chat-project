@@ -1,0 +1,138 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style" :
+			{
+			    "navigationBarTitleText": "好友列表",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/logs/logs",
+			"style": {
+				"navigationBarTitleText": "查看启动日志"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/binding-email/binding-email",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTitleText": "换绑邮箱",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/accountLogin/accountLogin",
+			"style": {
+				"backgroundTextStyle": "light",
+				// "navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+            "path" : "pages/userInfo/userInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/webviewPage/webviewPage",
+            "style" :                                                                                    
+            {
+                //"navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/updatePwdReq/updatePwdReq",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/retrievePassword/retrievePassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "pages/messageList/messageList",
+			"style" :
+			{
+			    "navigationBarTitleText": "消息",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/CustomerServiceChat/CustomerServiceChat",
+			"style" :
+			{
+			    "navigationBarTitleText": "聊天界面",
+			    "enablePullDownRefresh": false
+			}
+		}
+    ],
+	"tabBar": {
+		"selectedColor": "#3a86b9",
+		"color": "#b8b8b8",
+		"list": [
+			{
+				"pagePath": "pages/messageList/messageList",
+				"text": "消息",
+				"iconPath": "/static/images/tabbar/message.png",
+				"selectedIconPath": "/static/images/tabbar/message-sel.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "好友",
+				"iconPath": "/static/images/tabbar/friend.png",
+				"selectedIconPath": "/static/images/tabbar/friend-sel.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/static/images/tabbar/user.png",
+				"selectedIconPath": "/static/images/tabbar/user-sel.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "WeChat",
+		"navigationBarTextStyle": "black",
+		"navigationStyle":"custom",
+		"app-plus":{
+			"titleView":false //去掉顶部导航栏
+		}
+	},
+	"subPackages": []
+}

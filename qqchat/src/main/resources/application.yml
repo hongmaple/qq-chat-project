@@ -1,0 +1,73 @@
+spring:
+  application:
+    name: qqchat
+  jackson:
+    serialization:
+      write-dates-as-timestamps: true
+    date-format: yyyy-MM-dd HH:mm:ss
+  time-zone: GMT+8
+  main:
+    allow-bean-definition-overriding: true
+  # 文件上传
+  servlet:
+    multipart:
+      # 单个文件大小
+      max-file-size:  1000MB
+      # 设置总上传的文件大小
+      max-request-size:  2000MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/qqchat?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    #password: 123456
+    lettuce:
+      pool:
+        max-idle: 100
+        max-active: 300
+        max-wait: 1000ms
+    timeout: 100000ms
+    session:
+      store-type: redis
+      redis:
+        flush-mode: on_save
+        namespace: qqchat:session
+      timeout: 3h
+server:
+  port: 9581
+#日志
+logging:
+  level:
+    com.buleqr: debug
+    org.springframework: warn
+    main.blog.mapper: trace
+#操作数据库的设置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+# 项目相关配置
+qqchat:
+  # 名称
+  name: qqchat
+  # 版本
+  version: 1.0.0
+  # 版权年份
+  copyrightYear: 2021
+  # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
+  profile: D:/shihuo/qq-chat-project/qqchat/uploadPath
+# rsa配置
+rsa:
+  key:
+    publicKey-file:  D:/shihuo/qq-chat-project/qqchat/auth_key/id_key_rsa.pub
+    privateKey-file: D:/shihuo/qq-chat-project/qqchat/auth_key/id_key_rsa
+    secret: (EMOK)_$^11244^%$_(IS)_@@++--(COOL:)_++++_:sds_(GUY)
+
+token:
+  #token头部
+  header: Authorization
+  #存储的key
+  secret: qqchat_user
+  #过期时间
+  expiration: 10000000
