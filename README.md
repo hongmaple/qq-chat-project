@@ -1,6 +1,7 @@
 # qq-chat-project
 
 #### 介绍
+#####最新版gitee地址：https://gitee.com/hongmaple/qq-chat-project
 使用uniapp+java实现的聊天软件，用redis存储聊天数据，实现离线消息推送，使用邮箱注册，邮箱验证来实现用户注册，即时渲染聊天数据，加载聊天列表，支持离线（对方离线）消息发送,目前支持文件发送下载，图片视频发送与展示，以及表情包功能，并加入了时间的显示和聊天列表关于多种类型消息的简述，用户名，用户头像实时更新
 ##### 部分截图
 ![输入图片说明](qqchat-uniapp/static/images/liaotian.jpg)
