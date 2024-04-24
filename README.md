@@ -51,3 +51,14 @@
 2.  使用邮箱注册，邮箱验证来实现用户注册
 3.  即时渲染聊天数据，加载聊天列表，支持离线（对方离线）消息发送
 4.  使用rsa对token进行加密，提高安全性
+
+## 联系我，提供部署定制服务
+wx: mapleCx330   qq群：[![加入QQ群](https://img.shields.io/badge/628043364-blue.svg)](https://qm.qq.com/q/RuCfOyaOUm) 
+
+## 开源不易，谢谢打赏
+<table>
+ <td>
+   <td><img style="height: 230px;width: 230px" src="https://gitee.com/hongmaple/netdisk/raw/master/image/wxPay.jpg" alt=""/></td>
+   <td><img style="height: 230px;width: 230px" src="https://gitee.com/hongmaple/netdisk/raw/master/image/zfb.jpg" alt=""/></td>
+ </td>
+</table>
