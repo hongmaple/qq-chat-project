@@ -1,5 +1,8 @@
 # qq-chat-project
 
+* 阿里云服务器优惠：[点我进入](https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=yclv4x57)，腾讯云产品优惠：[点我进入](https://curl.qcloud.com/ZHPbMWTl)&nbsp;&nbsp;
+* 腾讯云618：[点我领取](https://curl.qcloud.com/6znbHFOM)&nbsp;&nbsp;
+
 #### 介绍
 ##### 最新版gitee地址：https://gitee.com/hongmaple/qq-chat-project
 使用uniapp+java实现的聊天软件，用redis存储聊天数据，实现离线消息推送，使用邮箱注册，邮箱验证来实现用户注册，即时渲染聊天数据，加载聊天列表，支持离线（对方离线）消息发送,目前支持文件发送下载，图片视频发送与展示，以及表情包功能，并加入了时间的显示和聊天列表关于多种类型消息的简述，用户名，用户头像实时更新
